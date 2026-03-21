@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: rgb(165, 165, 165);
+}
+.webhome{
+    height: 45px;
+    width: 53px;
+}
+.logo{
+    margin-left: 3%;
+}
+.navbar{
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+}
+.navbar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px 0;
+    
+    
+}
+.navbar a:hover{
+    border-bottom: 4px solid rgb(112, 54, 9);
+
+}
+.navbar a sup{
+    color: red;
+    font-size: 10px;
+}
+.searchbar{
+    margin-left: 1%;
+    height: 40px;
+    min-width: 400px;
+    width: 30%; 
+    display: flex;
+    
+}
+.searcheng{
+    color: gray;
+    background-color: aliceblue;
+    flex-grow: 1;
+    height: 40px;
+    text-align: left;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+       
+}
+.searchicon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color:aliceblue;
+
+}
+.actionbar{
+    margin-left: 2%;
+    flex-grow: 1;
+    display: flex;
+}
+body{
+    background-color: rgb(255, 244, 227);
+}
+.bannerimg{
+    width: 100%;
+    margin: 20px 0;
+}
+.categoryheading1{
+    text-transform: uppercase;
+    color: rgb(65, 62, 62);
+    letter-spacing: 0.15cm;
+    font-size: 1cm;
+    margin: 50px 0 10px 30px;
+    max-height: 2cm;
+    font-weight: 400;
+
+}
+.saleitems{
+    width: 20%;
+    height: 20%;
+    
+}
+.categoryitems1{
+    display: flex;
+    margin-left: 2%;
+    font-size: larger;
+    gap: 50px;   
+    text-decoration: none;
+}
+.categoryitems1 a{
+    text-decoration: none;
+
+}
+
+
+.categoryitems2{
+    display: flex;
+    margin-left: 2%; 
+    margin-top: 3%; 
+    font-size: larger; 
+    gap: 50px;
+    text-decoration: none; 
+}
+.categoryitems2 a{
+    text-decoration: none;
+
+}
+      
+
+.categoryitems3{
+    display: flex;
+    margin-left: 36.425%; 
+    margin-top: 3%;
+    font-size: larger; 
+    text-decoration: none;  
+}
+.categoryitems3 a{
+    text-decoration: none;
+
+}
+.categoryheading2{
+    text-transform: uppercase;
+    color: rgb(65, 62, 62);
+    letter-spacing: 0.15cm;
+    font-size: 1cm;
+    margin: 50px 0 10px 30px;
+    max-height: 2cm;
+    font-weight: 400;
+
+}
+.categoryitems4{
+    display: flex;
+    margin-left: 1%; 
+    margin-top: 3%; 
+    font-size: larger; 
+    gap: 20px; 
+    text-decoration: none;
+    
+}
+.categoryitems4 a{
+    text-decoration: none;
+
+}
+.footercontainer{
+    padding: 30px 0 40px 0;
+    background: #fcf6f0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footercolumn{
+    display: flex;
+    flex-direction: column;
+}
+.footercolumn h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footercolumn a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5%;
+}
+.footercolumn2{
+    display: flex;
+    flex-direction: column;
+}
+.footercolumn2 h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footercolumn2 a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5%;
+}
+.copyright{
+    color: #5f6064;
+    text-align: end;
+    padding: 15px;
+}
+.footercolumn3{
+    display: flex;
+    flex-direction: column;
+}
+.footercolumn3 h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footercolumn3 a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5%;
+}
+.footercontainer2{
+    padding: 30px 0 40px 0;
+    background: #fcf6f0;
+    display: flex;
+    justify-content: space-evenly;
+   
+    }
+ .footercolumn4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    }   
+    .footercolumn4 h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+    margin: 10px 0 10px 0px;
+    
+    }
+    .footercolumn4 a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5%;
+    
+    }
