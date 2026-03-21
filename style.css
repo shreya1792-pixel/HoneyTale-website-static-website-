@@ -239,3 +239,13 @@ body{
     padding-bottom: 5%;
     
     }
+@media (max-width: 768px) {
+  .products {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+}
